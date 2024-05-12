@@ -14,6 +14,14 @@ font-family: "Oswald", sans-serif; */
 body{
     font-family: "Montserrat", sans-serif;
 }
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_1280.jpg');
+    background-size: cover; /* para cubrir todo el área */
+    /* Otras propiedades opcionales para ajustar la apariencia de la imagen de fondo */
+    background-repeat: no-repeat; /* para evitar que se repita */
+    background-position: center center; /* para centrar la imagen */
+}
+
 img{
     max-width: 100%;
 }
@@ -21,12 +29,12 @@ img{
     max-width: 1200px;
     margin: 0 auto;
 }
-.header{
+ .header{
     display: flex;
     align-items: center;
     min-height: 80vh;
-    background-color: #e0bdbd;
-    padding: 70px 0;
+    background-color: white;
+    padding: 70px 0; 
 }
 .menu{
    position: absolute;
@@ -39,7 +47,7 @@ img{
 }
 .logo{
    font-size: 25px;
-   color: black;
+   color: white;
    text-transform: uppercase;
    font-weight: 800; 
 }
@@ -50,7 +58,7 @@ img{
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: black;
+    color: white;
     display: block;
 }
 #menu {
@@ -58,15 +66,20 @@ img{
 }
 .menu-icono {
     width: 25px;
+       
 }
 
 .menu label{
     cursor: pointer;
     display: none;
+    
 }
 .submenu{
     position: relative;
+    
 }
+
+
 .submenu #carrito{
     display: none;
 }
@@ -77,7 +90,7 @@ img{
     backdrop-filter: blur(10px);
     top: 100%;
     z-index: 1;
-    background-color: #4e485076;
+    background-color: #ffffff;
     padding: 20px;
     min-width: 400px;
 }
@@ -85,10 +98,10 @@ table{
     width: 100%;
 }
 th, td{
-    color: #ffffff;
+    color: #000000;
 }
 .borrar{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
@@ -99,29 +112,30 @@ th, td{
 .header-content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex: 1;
-    padding: 0 200px;
+    align-items: left;
+    flex: 4;
+    padding: 0 0px;
 }
 .header-img{
     flex-basis: 50%;
-    text-align: center;
+    text-align: left;
 }
 .header-txt{
-    flex-basis: 50%;
-    text-align: center;
+    flex-basis: 30%;
+    text-align: left;
 }
 .header-txt h1{
     font-size: 90px;
     text-transform: uppercase;
     line-height: 1;
-    color: black;
+    color: white;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 15px;
 }
 .header-txt p{
     font-size: 20px;
     text-transform: uppercase;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 .btn-1{
@@ -141,7 +155,7 @@ th, td{
     display: flex;
     align-items: center;
     flex-basis: calc(33.3% - 15px);
-    background-color: #e0bdbd;
+    background-color: #e6ded8;
     padding: 35px;
 }
 .ofert-img{
