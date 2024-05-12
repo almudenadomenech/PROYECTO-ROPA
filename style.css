@@ -46,11 +46,15 @@ img{
    justify-content: space-between;
 }
 .logo{
-   font-size: 25px;
+   width: 80px;
+   height: 80px;
    color: white;
    text-transform: uppercase;
-   font-weight: 800; 
-}
+   font-weight: 80;   
+   
+} 
+
+ 
 .menu .navbar ul li{
     position: relative;
     float: left;
